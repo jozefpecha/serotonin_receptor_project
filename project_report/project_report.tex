@@ -1,18 +1,40 @@
-\documentclass[12pt, twoside]{article}
+\documentclass[12pt, twoside]{report}
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
 
 \title{Serotonin 6 Receptor Ligands Activity Prediction \\
-        
         \large Machine Learning and Neural networks modelling in Drug Design}
 \author{Jozef Pecha}
 \date{\today}
 
 \begin{document}
 
-\begin{titlepage}
 \maketitle
-\end{titlepage}
 
 \tableofcontents
+
+\chapter{Motivation}
+
+This project is a extension of work done during my Bachelor thesis project. As such, much of the process will remain the same.
+The goal during my thesis project was to create a variety of prediction models in order to create a tool able to predict binding affinity
+of newly synthesized molecules against 5-HT$_{6}$ receptor. The project consisted of the following pipeline:
+
+        \begin{itemize}
+                \item Data selection
+                \item Data curation (standardization)
+                \item Encoding molecular structure into fingerprints
+                \item Creating classification and regression models using
+                        \begin{itemize}
+                                \item SVM (Support Vector Machine)
+                                \item GBM (Gradient Boosting Machine)
+                                \item Random Forest
+                                \item Neural network models using Sklearn Multi-layer perceptron
+                                \item Deep-learning models using DeepChem
+                        \end{itemize}
+                \item Assessing model accuracy
+                \item Predicting activity of newly synthesized molecules
+        \end{itemize}
+
+In this project, I'd like to extend on my previous work by applying acquired experience and building more sofisticated models as well as more rigorous analysis of results.
 
 \end{document}
