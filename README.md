@@ -1,5 +1,8 @@
 # serotonin_receptor_project
 
+This is a mini-project to help me practice/learn data analysis and visualization techniques as well
+machine learning methods.
+
 ## Goal
 The goal is to extend on the work done during bachelor thesis project
 and create a reliable prediction model for 5-HT6 receptor ligands
